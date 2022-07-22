@@ -1,0 +1,46 @@
+
+body {background-color: powderblue;} 
+
+h1 { 
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+p { /*changing the font, color, and alignment of my text*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    margin-top: 4%; /*how can i make this not change my other text's padding?*/
+    margin-bottom: 3.5%;
+}
+ul {  /*doing the same for the list paragraph*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    padding: 0px;
+}
+li {
+    text-align: center;
+    list-style-position: inside;
+    color: darkblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
+.center { /*defining the center alignment*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img { /*adding a border to my images*/
+    border: 5px solid lightpink;
+}
+#test-button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 4%; 
+}
