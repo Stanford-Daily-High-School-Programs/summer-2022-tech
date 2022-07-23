@@ -1,0 +1,19 @@
+header-one {
+    background-color: rgb(157, 228, 228);
+    padding: 20px;
+    border: 15px solid rgb(163, 134, 218);
+    margin: 30px;
+}
+* {
+    background-color: rgb(228, 157, 194);
+    padding: 20px;
+    border: 15px solid rgb(134, 196, 218);
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+i {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 

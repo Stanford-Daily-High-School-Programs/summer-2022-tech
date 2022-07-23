@@ -1,5 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <! --- add your index.html file and other files here! to this folder with your name!! --->
-    <h1>Test</h1>
+    <head>
+        <title>Fabiha Afifa</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+
+            //Adding my alert, a function and some variables.
+            alert("Click OK to check out my site!")
+
+            function buttonClicked() {
+                document.getElementById("test-button").innerHTML = "Astrology!"
+             }
+
+             var a = 1;
+             var b = 3;
+
+             if (a < b) {
+                alert("If you don't think dark chocolate is the best kind of chocolate, you shouldn't be here.")
+             }
+
+             var sunSign = Aries;
+             var favoriteNumber = 1;
+             var todaysDate = new Date()
+        </script>
+    </head>
+
+    <body style="background-color: #ffecd1;">
+
+        <!--Adding the header of the page along with paragraphs of information about me.-->
+
+        <h3 class="logo">Fabiha Afifa</h3>
+        <img class=picture src="1.png"/>
+        <h2 class="header">Recent high school grad from Dhaka, Bangladesh. Passionate about human rights, politics, journalism, technology and powering a fairer, happier world with the four.</h2>
+        <p class="little">Hello and welcome to my site! I have created this webpage to basically serve as a scrapbook for me - as a small treasure trove of my likes, dislikes, interests, dreams and everything that make me uniquely me.<p>
+            <h2 class="header2">These are some things I usually spend my time on:</h2>
+            <p>
+                <ul>
+                    <li>
+                        <h3 class="header3">Writing</h3>
+                        <p class="little2">Writing is one of my biggest hobbies ever (the other, of course, is reading) and since March 2022, I have been working as a contributor at <a href="https://www.thedailystar.net/shout">SHOUT.</a> My work for the weekly youth magazine - which happens to be published by the largest circulating English newspaper in Bangladesh, The Daily Star - encompasses everything relevant to the Bangladeshi youth: politics, mental health, pop culture and so much more. You can find all my articles <a href="https://www.thedailystar.net/author/fabiha-afifa">here</a>.</p>
+                    </li>
+                    <li>
+                        <h3 class="header3">Model UN</h3>
+                        <p class="little2">MUN has been a huge part of my high school career. I have participated in over 10 conferences and won the Outstanding Delegate award at MIT MUN Conference 2022 and Harvard MUN China 2021. I have also served as an Assistant Director at Harvard MUN Dubai 2022 recently.</p>
+                    </li>
+                    <li>
+                        <h3 class="header3">Teacher Assistantship and Private Tutoring</h3>
+                        <p class="little2">I work as a TA for my high school English teacher and a private math tutor. For the first job, my task is to check copies of 60+ sophomores on behalf of the teacher and for the latter, I prepare exam papers for around 20 seniors. I also teach A Level math (units P3 and P4) to a senior privately and previously taught English, math, biology and chemistry to a middle schooler.</p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <h3 class="ending">
+                    <b>Currently, I am reading <em>The Prince</em> by Niccolo Machiavelli and listening to Daniel Caesar on repeat. Books and music are what recharge me and keep me going.</b>
+                </h3>
+                </p>
+
+                <!--Adding a button and a label.-->
+
+                <p class="button">
+                <button id="test-button" onclick="buttonClicked()">Click this button to find out my... <em>less academic</em> passion.</button><br></p>
+                <p class="label">
+                <label for="fname">What's one word you'd use to describe me?</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            </p>
+    </body>
 </html>
